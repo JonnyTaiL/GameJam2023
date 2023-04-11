@@ -6,12 +6,12 @@
 
 // Add default functionality here for any II_Interact functions that are not pure virtual.
 
-virtual void II_Interact::LookAt_Implementation(ASYT_Character* PlayerRef) 
+void II_Interact::LookAt_Implementation(ASYT_Character* PlayerRef) 
 {
 
 }
 
-virtual void II_Interact::InteractWith_Implementation(ASYT_Character* PlayerRef) 
+void II_Interact::InteractWith_Implementation(ASYT_Character* PlayerRef) 
 {
 
 }
