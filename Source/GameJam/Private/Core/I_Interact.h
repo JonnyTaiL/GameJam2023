@@ -29,7 +29,7 @@ public:
 		void LookAt(ASYT_Character* PlayerRef);
 	virtual void LookAt_Implementation(ASYT_Character* PlayerRef);
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-		void InteractWith_Implementation(ASYT_Character* PlayerRef);
+		void InteractWith(ASYT_Character* PlayerRef);
 	virtual void InteractWith_Implementation(ASYT_Character* PlayerRef);
 
 
