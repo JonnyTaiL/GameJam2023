@@ -8,6 +8,8 @@
 
 #include "InteractableMaster.generated.h"
 
+class UStaticMeshComponent;
+
 UCLASS()
 class AInteractableMaster : public AActor, public II_Interact
 {
@@ -16,6 +18,8 @@ class AInteractableMaster : public AActor, public II_Interact
 public:	
 	// Sets default values for this actor's properties
 	AInteractableMaster();
+
+	UStaticMeshComponent* StaticMesh;
 
 protected:
 	// Called when the game starts or when spawned
